@@ -92,8 +92,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .hero-lede { max-width: 640px; font-size: clamp(15px, 1.4vw, 18px); color: #B9C6D8; }
 .hero-actions { display: flex; gap: 14px; margin: 34px 0 56px; flex-wrap: wrap; }
 .process-strip {
-  list-style: none; display: grid; grid-template-columns: repeat(6, 1fr);
-  border-top: 1px solid rgba(184,196,211,.25); margin: 0 -40px; padding: 0 40px;
+  list-style: none; display: grid; grid-template-columns: repeat(6, 1fr); margin-top: auto;
+  border-top: 1px solid rgba(184,196,211,.25); margin-left: -40px; margin-right: -40px; padding: 0 40px;
 }
 .process-strip li {
   padding: 18px 14px 22px; border-right: 1px solid rgba(184,196,211,.25);
